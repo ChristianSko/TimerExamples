@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		7E6283992886962E0082887E /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6283982886962E0082887E /* TimerApp.swift */; };
-		7E62839B2886962E0082887E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E62839A2886962E0082887E /* ContentView.swift */; };
+		7E62839B2886962E0082887E /* BannerTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E62839A2886962E0082887E /* BannerTimerView.swift */; };
 		7E62839D288696300082887E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E62839C288696300082887E /* Assets.xcassets */; };
 		7E6283A0288696300082887E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E62839F288696300082887E /* Preview Assets.xcassets */; };
+		7E6283A72886A7AD0082887E /* TimerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6283A62886A7AD0082887E /* TimerAnimation.swift */; };
+		7E6283A92886A8320082887E /* TimerToDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6283A82886A8320082887E /* TimerToDate.swift */; };
+		7E6283AB2886A9270082887E /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6283AA2886A9270082887E /* Countdown.swift */; };
+		7E6283AD2886A9850082887E /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6283AC2886A9850082887E /* CurrentTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E6283952886962E0082887E /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6283982886962E0082887E /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
-		7E62839A2886962E0082887E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E62839A2886962E0082887E /* BannerTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTimerView.swift; sourceTree = "<group>"; };
 		7E62839C288696300082887E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E62839F288696300082887E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E6283A62886A7AD0082887E /* TimerAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAnimation.swift; sourceTree = "<group>"; };
+		7E6283A82886A8320082887E /* TimerToDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerToDate.swift; sourceTree = "<group>"; };
+		7E6283AA2886A9270082887E /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
+		7E6283AC2886A9850082887E /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				7E6283982886962E0082887E /* TimerApp.swift */,
-				7E62839A2886962E0082887E /* ContentView.swift */,
+				7E62839A2886962E0082887E /* BannerTimerView.swift */,
+				7E6283A62886A7AD0082887E /* TimerAnimation.swift */,
+				7E6283A82886A8320082887E /* TimerToDate.swift */,
+				7E6283AC2886A9850082887E /* CurrentTime.swift */,
+				7E6283AA2886A9270082887E /* Countdown.swift */,
 				7E62839C288696300082887E /* Assets.xcassets */,
 				7E62839E288696300082887E /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E62839B2886962E0082887E /* ContentView.swift in Sources */,
+				7E6283AD2886A9850082887E /* CurrentTime.swift in Sources */,
+				7E6283A72886A7AD0082887E /* TimerAnimation.swift in Sources */,
+				7E62839B2886962E0082887E /* BannerTimerView.swift in Sources */,
+				7E6283A92886A8320082887E /* TimerToDate.swift in Sources */,
 				7E6283992886962E0082887E /* TimerApp.swift in Sources */,
+				7E6283AB2886A9270082887E /* Countdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
